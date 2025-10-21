@@ -2,7 +2,6 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import pandas_datareader as data
 import yfinance as yf
 import datetime as dt
 import streamlit as st
@@ -76,3 +75,4 @@ plt.xlabel('Time')
 plt.ylabel('Price')
 plt.legend()
 st.pyplot(fig2)
+

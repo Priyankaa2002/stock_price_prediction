@@ -76,3 +76,10 @@ plt.ylabel('Price')
 plt.legend()
 st.pyplot(fig2)
 
+comparison_df = pd.DataFrame({
+    'Original Price': y_test.flatten(),        # make sure it's 1D
+    'Predicted Price': y_predicted.flatten()
+})
+st.dataframe(comparison_df) 
+
+

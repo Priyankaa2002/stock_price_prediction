@@ -54,6 +54,4 @@ The model is a **stacked LSTM network** trained on historical closing prices:
 
 
 
-```bash
-git clone https://github.com/<your-username>/stock_price_prediction.git
-cd stock_price_prediction
+
